@@ -19,7 +19,7 @@
         <id>hello-world</id>
         <link href="https://your-docusaurus-test-site.com/blog/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></summary>
+        <summary type="html"><![CDATA[Welcome to this blog updated. This blog is created with Docusaurus 2 alpha.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[myboro project]]></title>
