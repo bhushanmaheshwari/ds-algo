@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>theneedlecompass · DS-ALGO</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Blog features are powered by the blog plugin. Simply add files to the `blog` directory. It supports tags as well!"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="theneedlecompass · DS-ALGO"/><meta property="og:type" content="website"/><meta property="og:url" content="https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/30/welcome"/><meta property="og:description" content="Blog features are powered by the blog plugin. Simply add files to the `blog` directory. It supports tags as well!"/><meta property="og:image" content="https://bhushanmaheshwari.github.io/ds-algo/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://bhushanmaheshwari.github.io/ds-algo/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/ds-algo/undefined"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://bhushanmaheshwari.github.io/ds-algo/blog/atom.xml" title="DS-ALGO Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://bhushanmaheshwari.github.io/ds-algo/blog/feed.xml" title="DS-ALGO Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/ds-algo/js/scrollSpy.js"></script><link rel="stylesheet" href="/ds-algo/css/main.css"/><script src="/ds-algo/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/ds-algo/"><h2 class="headerTitle">DS-ALGO</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/ds-algo/docs/data-structures/stacks" target="_self">Documentation</a></li><li class="siteNavGroupActive"><a href="/ds-algo/blog/" target="_self">Blogs (in-progress)</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/ds-algo/blog/2019/05/30/welcome">theneedlecompass</a></li><li class="navListItem"><a class="navItem" href="/ds-algo/blog/2019/05/29/hello-world">Travel project</a></li><li class="navListItem"><a class="navItem" href="/ds-algo/blog/2019/05/28/hola">myboro project</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/ds-algo/blog/2019/05/30/welcome">theneedlecompass</a></h1><p class="post-meta">May 30, 2019</p><div class="authorBlock"><p class="post-authorName"><a target="_blank" rel="noreferrer noopener">Yangshun Tay</a></p></div></header><div><span><p>Blog features are powered by the blog plugin. Simply add files to the <code>blog</code> directory. It supports tags as well!</p>
+<p>Delete the whole directory if you don't want the blog features. As simple as that!</p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/ds-algo/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2022 NeedleCompass. Developed by bhushanmaheshwari</section></footer></div></body></html>

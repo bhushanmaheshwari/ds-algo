@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bhushanmaheshwari.github.io/ds-algo/blog</id>
+    <title>DS-ALGO Blog</title>
+    <updated>2019-05-30T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bhushanmaheshwari.github.io/ds-algo/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest DS-ALGO news and events.</subtitle>
+    <logo>https://bhushanmaheshwari.github.io/ds-algo/undefined</logo>
+    <rights>Copyright © 2022 NeedleCompass. Developed by bhushanmaheshwari</rights>
+    <entry>
+        <title type="html"><![CDATA[theneedlecompass]]></title>
+        <id>https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/30/welcome.html</id>
+        <link href="https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/30/welcome.html"/>
+        <updated>2019-05-30T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Blog features are powered by the blog plugin. Simply add files to the <code>blog</code> directory. It supports tags as well!</p> <p>Delete the whole directory if you don't want the blog features. As simple as that!</p> ]]></summary>
+        <author>
+            <name>Yangshun Tay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Travel project]]></title>
+        <id>https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/29/hello-world.html</id>
+        <link href="https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/29/hello-world.html"/>
+        <updated>2019-05-29T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Welcome to this blog updated. This blog is created with <a href="https://docusaurus.io/"><strong>Docusaurus 2 alpha</strong></a>.</p>
+]]></summary>
+        <author>
+            <name>Endilie Yacop Sucipto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[myboro project]]></title>
+        <id>https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/28/hola.html</id>
+        <link href="https://bhushanmaheshwari.github.io/ds-algo/blog/2019/05/28/hola.html"/>
+        <updated>2019-05-28T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p> ]]></summary>
+        <author>
+            <name>Gao Wei</name>
+        </author>
+    </entry>
+</feed>
