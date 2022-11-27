@@ -25,42 +25,32 @@ class Index extends React.Component {
         <GridBlock
           align="center"
           contents={props.children}
-          layout={props.layout}
         />
       </Container>
     );
 
-    const ProjectTitle = (props) => (
-      <GridBlock
-        align="center">
-
-        <h2 className="projectTitle">
-
-          <small>{props.tagline}</small>
-        </h2>
-      </GridBlock>
-    );
-
     const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: siteConfig.tagline,
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'right',
-            title: 'Data Structure & Algorithms',
-          },
-        ]}
-      </Block>
-    );
+      <div>
+        <Block id="try">
+          {[
+            {
+              image: `${baseUrl}img/undraw_code_review.svg`,
+              imageAlign: 'bottom',
+              title: 'Learn Data Structure & Algorithms',
+            },
+          ]}
+        </Block>
 
+
+      
+      </div>
+    );
 
 
 
     return (
       <div>
         <div className="mainContainer">
-          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <TryOut />
         </div>
       </div>
