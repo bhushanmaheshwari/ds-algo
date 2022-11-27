@@ -1,0 +1,6 @@
+{
+  "docs": {
+    "Data Structures": ["data-structures/stacks"],
+    "Patterns": ["patterns/fast-slow-pointers", "patterns/sliding-window","patterns/two-pointers"]
+  }
+}

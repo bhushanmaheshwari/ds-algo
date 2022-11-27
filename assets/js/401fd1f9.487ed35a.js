@@ -1,1 +1,0 @@
-(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[152],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"theneedlecompass","permalink":"/ds-algo/blog/welcome"},{"title":"Travel project","permalink":"/ds-algo/blog/hello-world"},{"title":"myboro project","permalink":"/ds-algo/blog/hola"}]}')}}]);

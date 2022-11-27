@@ -1,1 +1,0 @@
-(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[375],{7677:function(l){"use strict";l.exports=JSON.parse('{"allTagsPath":"/ds-algo/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/ds-algo/blog/tags/hello"}')}}]);
