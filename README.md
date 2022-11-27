@@ -3,7 +3,9 @@ This project is focused on how well we can do documentation of our work. Check o
 
 <a href="https://bhushanmaheshwari.github.io/ds-algo/" target="_blank">Check out this project</a>
 
-
+<kbd>
+<img src="https://github.com/bhushanmaheshwari/ds-algo/blob/f1bde30c98e576f2681207e4c4f0d198cf6126d0/website/static/img/home-page.png"/>
+</kbd>
 
 # What is a data structure?
 A data structure is a group of data elements that provides the easiest way to store and perform different actions on the data of the computer. A data structure is a particular way of organizing data in a computer so that it can be used effectively. The idea is to reduce the space and time complexities of different tasks. 
